@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#root {
+    width: 100%;
+    height: 100vh;
+}
+
+/* Containers */
+.pProfileContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
+    background-color: #5d89ba;
+    padding: 0;
+}
+
+.pProfileRow {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.pProfileCard {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 60%;
+    margin: auto;
+    background-color: #edf2f4;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* End Containers */
+
+/* Text Display and Headers */
+.personName {
+    margin-top: 3vh;
+    font-size: 35px;
+}
+
+.personTitle {
+    font-size: 25px;
+}
+
+.personOrganization {
+    font-size: 25px;
+}
+
+.pHeader{
+    font-size: 30px;
+    
+}
+
+.pSkillsText{
+    font-size: 20px;
+    height: auto;
+    white-space: pre-line;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+
+.pBioText{
+    font-size: 20px;
+    height: auto;
+
+    white-space: pre-line;
+    overflow-y: auto;
+
+}
+.pContactText{
+    font-size: 20px;
+    white-space: pre-line;
+    height: auto;
+}
+/* End Text Display and Headers */
+.pEditProfileButton {
+    width: 150px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 25px !important;
+    border: 2px solid #5d89ba !important;
+    background-color: #5d89ba !important;
+    outline: none !important;
+    margin-bottom: 5px;
+    position: absolute;
+    right: 22vw;
+    transform: translateY(-100%);
+    
+}
+
+.line{
+    /* css for the line. Will add positioning if necessary */
+}
+

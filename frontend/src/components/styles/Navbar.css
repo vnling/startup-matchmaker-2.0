@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+.bg-bgcol {
+    background-color: #5d89ba;
+}
+
+.navTextName {
+    color: #edf2f4;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 1.5rem;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+
+.navText {
+    color: #edf2f4;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.navbar{
+    background-color: #5d89ba;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #edf2f4;
+}
+
+.searchModal .modal-header {
+    background-color: #5d89ba !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #edf2f4;
+}
+.searchModal .modal-body {
+    
+    background-color: #5d89ba !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    color: #edf2f4;
+    
+}
+
+.srchModalCard {
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #edf2f4;
+    max-width: 80vw;
+    width: 80vw;
+    max-height: 90vh;
+    height: 90vh;
+    color: black;
+    border-radius: 10px;
+}
+
+.srchModalContainer {
+    background-color: #5d89ba;
+    max-width: 100vw;
+    max-height: 80vh !important;
+    height: auto;
+    font-family: 'Josefin Sans', sans-serif !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.modalName{
+    font-size: 35px;
+}
+.modalHeader {
+    font-size: 30px;
+}
+
+.modalBioText{
+    
+    font-size: 20px;
+    height: 10vh;
+
+    white-space: pre-line;
+    overflow-y: auto;
+}
+
+.modalContactText {
+    font-size: 20px;
+    height: 10vh;
+
+    white-space: pre-line;
+    overflow-y: auto;
+}
+
+.modalSkillsText {
+    font-size: 20px;
+    height: auto;
+    white-space: pre-line;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}

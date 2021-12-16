@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+#root {
+    width: 100%;
+    height: 100vh;
+    background-color: #5d89ba;
+}
+
+/* Containers */
+.sProfileContainer {
+    display: flex;
+    flex-direction: column;
+    max-width: 100vw;
+    width: 100%;
+    height: 100%;
+    background-color: #5d89ba;
+    padding: 0;
+}
+
+.sProfileRow {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.sProfileCard {
+    font-family: 'Josefin Sans', sans-serif;
+    max-width: 60%;
+    margin: auto;
+    background-color: #edf2f4;
+    border-radius: 10px;
+    height: auto;
+}
+
+/* End Containers */
+.sHeader {
+    font-size: 30px;
+}
+
+.startupName {
+    margin-top: 3vh;
+    font-size: 35px;
+}
+
+
+.sSkillsText{
+    font-size: 20px;
+    height: auto;
+    white-space: pre-line;
+    overflow-y: auto;
+    padding-bottom: 30px;
+}
+
+.sBioText{
+    font-size: 20px;
+    height: auto;
+
+    white-space: pre-line;
+    overflow-y: auto;
+
+}
+.sContactText{
+    font-size: 20px;
+    white-space: pre-line;
+    height: auto;
+}
+
+
+
+.sEditProfileButton {
+    width: 150px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 25px !important;
+    border: 2px solid #5d89ba !important;
+    background-color: #5d89ba !important;
+    outline: none !important;
+    margin-bottom: 5px;
+    position: absolute;
+    right: 22vw;
+    transform: translateY(-100%);
+}

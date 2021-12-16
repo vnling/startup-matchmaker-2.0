@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Parent for Rows and Cols */
+.hpContainer {
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh; 
+  /*vh https://stackoverflow.com/questions/1575141/how-to-make-a-div-100-height-of-the-browser-window?rq=1
+  container full height of the browser window. Then all other child's heights need to be specified as needed.
+  In this case (homepage). Container is full height of window, row is set to 100, then finally the column is set to 100
+  */
+}
+
+/* left and right cols parents for personButton and .startupButton */
+.leftCol {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #5d89ba;
+  height: 100%;
+  
+}
+
+.rightCol {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #edf2f4;
+  height: 100%;
+}
+
+.hpRow {
+  max-height: 100%;
+  height: 100%;
+}
+
+
+.startupButton {
+
+  width: 334px !important;
+  height: 87px !important;
+
+  background: #edf2f4 !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+
+  border: none !important;
+  color: #5d89ba !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  line-height: 90px !important;
+}
+
+.personButton {
+
+  width: 350px !important;
+  height: 87px !important;
+
+  background: #5d89ba !important;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25) !important;
+
+  border: none !important;
+  color: #edf2f4 !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 50px !important;
+  text-align: center !important;
+  line-height: 90px !important;
+  
+}
+
+.startupQuestion{
+  width: 334px;
+  height: 87px;
+  text-align: center;
+  background-color: #5d89ba;
+  color: #edf2f4 !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 50px !important;
+}
+
+.personQuestion {
+  width: 350px;
+  height: 87px;
+  text-align: center;
+  background-color: #edf2f4;
+  color: #5d89ba !important;
+  font-family: 'Josefin Sans', sans-serif !important;
+  font-size: 50px !important;
+}

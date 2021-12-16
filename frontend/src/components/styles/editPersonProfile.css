@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+/* Containers */
+.pEditProfileContainer {
+    max-width: 100%;
+    max-height: 100%;
+    /* height: 90vh; */
+    /* background-color: #000000; */
+    background-color: #edf2f4;
+}
+
+.pEditProfileRow {
+    height: 100vh;
+}
+
+.pEditProfileCol {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edf2f4;
+    height: 93%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+}
+/* .pEditSkillsCol {
+    max-width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #edf2f4;
+    height: 100%;
+} */
+
+/* End Containers */
+
+/* Input Forms, Borders & Text */
+
+.pEditProfileTitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.pEditNameForm {
+    margin-bottom: 20px;
+    
+    width: 600px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+
+}
+
+.pEditNameBorder {
+    border-radius: 25px;
+    border: 2px solid #000000;
+
+}
+
+.pEditTitleForm {
+    margin-bottom: 20px;
+    width: 600px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+
+}
+
+.pEditTitleBorder {
+    border-radius: 25px;
+    border: 2px solid #000000;
+
+}
+
+.pEditOrgForm {
+    margin-bottom: 20px;
+    width: 600px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+
+}
+
+.pEditOrgBorder {
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.pEditBioForm {
+    margin-bottom: 20px;
+    width: 800px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+
+}
+
+.pEditBioBorder {
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.pEditContactForm {
+    margin-bottom: 20px;
+    width: 800px;
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: large;
+
+}
+
+.pEditContactBorder {
+    border-radius: 25px;
+    border: 2px solid #000000;
+}
+
+.pEditPersonSkills {
+    margin-top: 63.5vh;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 18px !important;
+}
+
+.pSkillSelectBorder {
+    /* border-radius: 25px !important;
+    border: 2px solid #000000 !important; */
+    margin-bottom: 30px;
+    width: 800px;
+   
+}
+
+/* Button */
+.pUpdateProfileButton {
+    width: 300px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 25px !important;
+    border: 2px solid #5d89ba !important;
+    background-color: #5d89ba !important;
+    outline: none !important;
+    margin-right: 200px;
+}
+.pBackToProfileButton{
+    width: 300px !important;
+    font-family: 'Josefin Sans', sans-serif !important;
+    font-size: 20px !important;
+    border-radius: 25px !important;
+    border: 2px solid #5d89ba !important;
+    background-color: #5d89ba !important;
+    outline: none !important;
+}
